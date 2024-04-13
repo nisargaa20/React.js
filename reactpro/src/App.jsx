@@ -3,9 +3,8 @@ function App() {
  
   return (
   <div className="App">
-  <Hello name="John" message="Hi there!"/>
-  <Hello name="Tom" message="Hello"/>
-
+  <Hello name="John" message="Hi there!" emoji="👋"/>
+ 
   </div>
   );
       
