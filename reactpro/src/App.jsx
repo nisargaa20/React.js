@@ -1,13 +1,13 @@
 import Fruits from "./components/Fruits";
 import Hello from "./components/Hello";
-import conditionalComponent from "./components/conditionalComponent";
+import ConditionalComponent from "./components/ConditionalComponent";
 
 function App() {
   
  
   return (
   <div className="App">
-  <conditionalComponent />
+  <ConditionalComponent />
  
   </div>
   );
