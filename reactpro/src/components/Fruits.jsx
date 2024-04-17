@@ -15,7 +15,8 @@ export default function Fruits(){
     <ul>
       {fruits.map((fruit)=>(
      <Fruit 
-     key={fruit.name} 
+     key={fruit.name}
+     name={fruit.name} 
      price={fruit.price} 
      emoji={fruit.emoji}/>
     )
